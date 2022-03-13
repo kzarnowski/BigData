@@ -1,0 +1,66 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "required": [
+        "actors"
+    ],
+    "properties": {
+        "actors": {
+            "$id": "#/properties/actors",
+            "type": "array",
+            "title": "The actors schema",
+            "items": {
+                "$id": "#/properties/actors/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/actors/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "required": [
+                            "imdb_title_id",
+                            "ordering",
+                            "imdb_name_id",
+                            "category",
+                            "job",
+                            "characters"
+                        ],
+                        "properties": {
+                            "imdb_title_id": {
+                                "$id": "#/properties/actors/items/anyOf/0/properties/imdb_title_id",
+                                "type": "string",
+                                "title": "The imdb_title_id schema"
+                            },
+                            "ordering": {
+                                "$id": "#/properties/actors/items/anyOf/0/properties/ordering",
+                                "type": "string",
+                                "title": "The ordering schema"
+                            },
+                            "imdb_name_id": {
+                                "$id": "#/properties/actors/items/anyOf/0/properties/imdb_name_id",
+                                "type": "string",
+                                "title": "The imdb_name_id schema"
+                            },
+                            "category": {
+                                "$id": "#/properties/actors/items/anyOf/0/properties/category",
+                                "type": "string",
+                                "title": "The category schema"
+                            },
+                            "job": {
+                                "$id": "#/properties/actors/items/anyOf/0/properties/job",
+                                "type": "string",
+                                "title": "The job schema"
+                            },
+                            "characters": {
+                                "$id": "#/properties/actors/items/anyOf/0/properties/characters",
+                                "type": "null",
+                                "title": "The characters schema"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

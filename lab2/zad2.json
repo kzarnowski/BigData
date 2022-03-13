@@ -1,0 +1,32 @@
+{
+    "actors": [
+        {
+            "imdb_title_id": "tt0006617",
+            "ordering": "7",
+            "imdb_name_id": "nm9320228",
+            "category": "writer",
+            "job": "screenplay unused",
+            "characters": null
+        },
+        {
+            "imdb_title_id": "tt0004873",
+            "ordering": "3",
+            "imdb_name_id": "nm6706959",
+            "category": "actor",
+            "job": null,
+            "characters": [
+                "The Dodo Bird"
+            ]
+        },
+        {
+            "imdb_title_id": "tt0003643",
+            "ordering": "3",
+            "imdb_name_id": "nm0842239",
+            "category": "actress",
+            "job": null,
+            "characters": [
+                "Anabel - The Nephew's Sweetheart"
+            ]
+        }
+    ]
+}
